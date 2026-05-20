@@ -1,6 +1,5 @@
 $env:PATH = "C:\raylib\w64devkit\bin;" + $env:PATH
 
-
 g++ src/*.cpp -o src/main.exe -I"C:\raylib\raylib\src" -L"C:\raylib\raylib\src" -lraylib -lopengl32 -lgdi32 -lwinmm -Wall -Wextra
 
 .\src\main.exe
